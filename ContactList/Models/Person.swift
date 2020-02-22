@@ -9,10 +9,10 @@
 import UIKit
 
 struct Person {
-	var name: String
-	var surname: String
-	var email: String
-	var number: String
+	let name: String
+	let surname: String
+	let email: String
+	let number: String
 	
 	var person: String {
 		"\(name) \(surname)"
